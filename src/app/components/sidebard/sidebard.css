@@ -29,3 +29,28 @@
 .sidebar a:hover {
   background-color: #356151;
 }
+
+.sidebar nav a {
+  display: flex;
+  align-items: center; /* Centrar verticalmente icono y texto */
+  gap: 15px; /* Espacio entre el icono y el texto */
+  color: #f4ebd9;
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 8px; /* Bordes redondeados modernos */
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+.sidebar nav a i {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  width: 20px; /* Tamaño fijo para que los textos queden perfectamente alineados */
+  text-align: center;
+}
+
+.sidebar-divider {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid rgba(244, 235, 217, 0.2);
+  margin: 12px 0;
+}

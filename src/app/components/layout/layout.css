@@ -1,6 +1,9 @@
 .contenedor {
   display: flex;
   min-height: 100vh;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 5px;
 }
 
 .contenido {
@@ -8,4 +11,7 @@
   min-width: 0;
   padding: 30px;
   background-color: #E9E5DA;
+}
+body {
+  background-color: #D5D0C4;
 }
