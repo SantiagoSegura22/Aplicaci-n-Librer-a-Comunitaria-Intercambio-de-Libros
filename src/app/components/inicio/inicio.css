@@ -1,0 +1,78 @@
+h2{
+   color: #6E6359; 
+}
+.CartaInicio {
+  display: flex;
+  align-items: stretch;
+  height: 210px;
+  background-color: #f0e8d4;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* ---------- Imagen ---------- */
+.CartaInicio__imagen {
+  flex: 0 0 40%;
+  height: 120%;
+  overflow: hidden;
+  background-color: #f0e8d4;
+}
+
+.CartaInicio__imagen img {
+  display: block;
+  height: 100%;
+  width: calc(100% + 130px);
+  max-width: none;
+  margin-left: -130px;
+  object-fit: cover;
+  object-position: right bottom;
+}
+
+/* ---------- Contenido (texto + botón) ---------- */
+.CartaInicio__contenido {
+  flex: 1;
+  padding: 20px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 14px;
+  background: linear-gradient(to right, #f0e8d4, #f8f3e6);
+}
+
+.CartaInicio__contenido p {
+  margin: 0;
+  font-size: 1.45rem;
+  font-weight: 400;
+  line-height: 1.35;
+  color: #2b302d;
+}
+
+/* ---------- Botón ---------- */
+.CartaInicio__boton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 22px;
+  border: none;
+  border-radius: 14px;
+  background-color: #244d3b;
+  color: #ffffff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-shadow: 0 4px 10px rgba(36, 77, 59, 0.35);
+}
+
+.CartaInicio__boton:hover {
+  background-color: #19382b;
+}
+
+.CartaUltimosLibros{
+    display: flex;
+    background: linear-gradient(to right, #f0e8d4, #f8f3e6);
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
