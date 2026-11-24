@@ -1,0 +1,514 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Santiago Peña",
+      "correo": "santiago@libreria.com",
+      "telefono": "0991111111",
+      "ubicacion": "Guayaquil",
+      "foto": "https://i.pravatar.cc/150?img=12",
+      "fechaRegistro": "2026-10-01",
+      "estado": "Activo"
+    },
+    {
+      "id": 2,
+      "nombre": "Jordy Chango",
+      "correo": "jordy@libreria.com",
+      "telefono": "0992222222",
+      "ubicacion": "Guayaquil",
+      "foto": "https://i.pravatar.cc/150?img=13",
+      "fechaRegistro": "2026-10-03",
+      "estado": "Activo"
+    },
+    {
+      "id": 3,
+      "nombre": "Marvin Castro",
+      "correo": "marvin@libreria.com",
+      "telefono": "0993333333",
+      "ubicacion": "Durán",
+      "foto": "https://i.pravatar.cc/150?img=14",
+      "fechaRegistro": "2026-10-05",
+      "estado": "Activo"
+    },
+    {
+      "id": 4,
+      "nombre": "Emily Villon",
+      "correo": "emily@libreria.com",
+      "telefono": "0994444444",
+      "ubicacion": "Samborondón",
+      "foto": "https://i.pravatar.cc/150?img=15",
+      "fechaRegistro": "2026-10-06",
+      "estado": "Activo"
+    },
+    {
+      "id": 5,
+      "nombre": "Andrea López",
+      "correo": "andrea@libreria.com",
+      "telefono": "0995555555",
+      "ubicacion": "Guayaquil",
+      "foto": "https://i.pravatar.cc/150?img=16",
+      "fechaRegistro": "2026-10-08",
+      "estado": "Activo"
+    },
+    {
+      "id": 6,
+      "nombre": "Carlos Mendoza",
+      "correo": "carlos@libreria.com",
+      "telefono": "0996666666",
+      "ubicacion": "Durán",
+      "foto": "https://i.pravatar.cc/150?img=17",
+      "fechaRegistro": "2026-10-10",
+      "estado": "Activo"
+    },
+    {
+      "id": 7,
+      "nombre": "Valeria Torres",
+      "correo": "valeria@libreria.com",
+      "telefono": "0997777777",
+      "ubicacion": "Guayaquil",
+      "foto": "https://i.pravatar.cc/150?img=18",
+      "fechaRegistro": "2026-10-12",
+      "estado": "Activo"
+    },
+    {
+      "id": 8,
+      "nombre": "Diego Vera",
+      "correo": "diego@libreria.com",
+      "telefono": "0998888888",
+      "ubicacion": "Guayaquil",
+      "foto": "https://i.pravatar.cc/150?img=19",
+      "fechaRegistro": "2026-10-14",
+      "estado": "Activo"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Literatura",
+      "descripcion": "Novelas, cuentos y obras literarias"
+    },
+    {
+      "id": 2,
+      "nombre": "Educación",
+      "descripcion": "Textos académicos y material educativo"
+    },
+    {
+      "id": 3,
+      "nombre": "Tecnología",
+      "descripcion": "Informática, programación y tecnología"
+    },
+    {
+      "id": 4,
+      "nombre": "Ciencias",
+      "descripcion": "Ciencias naturales, matemáticas y experimentales"
+    },
+    {
+      "id": 5,
+      "nombre": "Historia",
+      "descripcion": "Historia, biografías y estudios sociales"
+    }
+  ],
+  "areasTematicas": [
+    {
+      "id": 1,
+      "nombre": "Novela y ficción",
+      "categoriaId": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Poesía y cuentos",
+      "categoriaId": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Programación",
+      "categoriaId": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Informática",
+      "categoriaId": 3
+    },
+    {
+      "id": 5,
+      "nombre": "Matemáticas",
+      "categoriaId": 4
+    },
+    {
+      "id": 6,
+      "nombre": "Biología",
+      "categoriaId": 4
+    },
+    {
+      "id": 7,
+      "nombre": "Universitaria",
+      "categoriaId": 2
+    },
+    {
+      "id": 8,
+      "nombre": "Historia universal",
+      "categoriaId": 5
+    },
+    {
+      "id": 9,
+      "nombre": "Desarrollo personal",
+      "categoriaId": 2
+    }
+  ],
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "descripcion": "Novela sobre varias generaciones de la familia Buendía en Macondo.",
+      "categoriaId": 1,
+      "areaTematicaId": 1,
+      "imagen": "https://covers.openlibrary.org/b/id/8775458-L.jpg",
+      "tipoPublicacion": "Venta",
+      "precio": 12.5,
+      "estadoFisico": "Bueno",
+      "usuarioId": 1,
+      "disponibilidad": "Disponible",
+      "fechaPublicacion": "2026-10-20"
+    },
+    {
+      "id": 2,
+      "titulo": "Clean Code",
+      "autor": "Robert C. Martin",
+      "descripcion": "Principios y prácticas para escribir código limpio y mantenible.",
+      "categoriaId": 3,
+      "areaTematicaId": 3,
+      "imagen": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+      "tipoPublicacion": "Venta",
+      "precio": 25.0,
+      "estadoFisico": "Muy bueno",
+      "usuarioId": 2,
+      "disponibilidad": "Disponible",
+      "fechaPublicacion": "2026-10-21"
+    },
+    {
+      "id": 3,
+      "titulo": "Matemáticas simplificadas",
+      "autor": "CONAMAT",
+      "descripcion": "Material de apoyo para estudiar fundamentos matemáticos.",
+      "categoriaId": 4,
+      "areaTematicaId": 5,
+      "imagen": "https://covers.openlibrary.org/b/id/10521259-L.jpg",
+      "tipoPublicacion": "Donación",
+      "precio": 0,
+      "estadoFisico": "Aceptable",
+      "usuarioId": 3,
+      "disponibilidad": "Disponible",
+      "fechaPublicacion": "2026-10-22"
+    },
+    {
+      "id": 4,
+      "titulo": "El principito",
+      "autor": "Antoine de Saint-Exupéry",
+      "descripcion": "Relato sobre la amistad, los vínculos y la forma de ver el mundo.",
+      "categoriaId": 1,
+      "areaTematicaId": 1,
+      "imagen": "https://covers.openlibrary.org/b/id/10521270-L.jpg",
+      "tipoPublicacion": "Donación",
+      "precio": 0,
+      "estadoFisico": "Bueno",
+      "usuarioId": 4,
+      "disponibilidad": "Disponible",
+      "fechaPublicacion": "2026-10-23"
+    },
+    {
+      "id": 5,
+      "titulo": "Java para principiantes",
+      "autor": "Herbert Schildt",
+      "descripcion": "Introducción a los conceptos del lenguaje Java.",
+      "categoriaId": 3,
+      "areaTematicaId": 3,
+      "imagen": "https://covers.openlibrary.org/b/id/8091016-L.jpg",
+      "tipoPublicacion": "Venta",
+      "precio": 18.0,
+      "estadoFisico": "Bueno",
+      "usuarioId": 5,
+      "disponibilidad": "Reservado",
+      "fechaPublicacion": "2026-10-24"
+    },
+    {
+      "id": 6,
+      "titulo": "Breve historia del tiempo",
+      "autor": "Stephen Hawking",
+      "descripcion": "Explicación divulgativa sobre el universo y la cosmología.",
+      "categoriaId": 4,
+      "areaTematicaId": 6,
+      "imagen": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
+      "tipoPublicacion": "Venta",
+      "precio": 10.0,
+      "estadoFisico": "Muy bueno",
+      "usuarioId": 6,
+      "disponibilidad": "Disponible",
+      "fechaPublicacion": "2026-10-25"
+    },
+    {
+      "id": 7,
+      "titulo": "Don Quijote de la Mancha",
+      "autor": "Miguel de Cervantes",
+      "descripcion": "Clásico de la literatura española.",
+      "categoriaId": 1,
+      "areaTematicaId": 1,
+      "imagen": "https://covers.openlibrary.org/b/id/8231996-L.jpg",
+      "tipoPublicacion": "Donación",
+      "precio": 0,
+      "estadoFisico": "Aceptable",
+      "usuarioId": 7,
+      "disponibilidad": "Disponible",
+      "fechaPublicacion": "2026-10-26"
+    },
+    {
+      "id": 8,
+      "titulo": "Introducción a la informática",
+      "autor": "George Beekman",
+      "descripcion": "Conceptos básicos de sistemas, software y hardware.",
+      "categoriaId": 3,
+      "areaTematicaId": 4,
+      "imagen": "https://covers.openlibrary.org/b/id/9255566-L.jpg",
+      "tipoPublicacion": "Venta",
+      "precio": 14.75,
+      "estadoFisico": "Bueno",
+      "usuarioId": 8,
+      "disponibilidad": "Disponible",
+      "fechaPublicacion": "2026-10-27"
+    },
+    {
+      "id": 9,
+      "titulo": "El diario de Ana Frank",
+      "autor": "Ana Frank",
+      "descripcion": "Diario personal escrito durante la Segunda Guerra Mundial.",
+      "categoriaId": 5,
+      "areaTematicaId": 8,
+      "imagen": "https://covers.openlibrary.org/b/id/8225261-L.jpg",
+      "tipoPublicacion": "Donación",
+      "precio": 0,
+      "estadoFisico": "Bueno",
+      "usuarioId": 1,
+      "disponibilidad": "Disponible",
+      "fechaPublicacion": "2026-10-28"
+    },
+    {
+      "id": 10,
+      "titulo": "Hábitos atómicos",
+      "autor": "James Clear",
+      "descripcion": "Ideas prácticas para construir hábitos y mejorar progresivamente.",
+      "categoriaId": 2,
+      "areaTematicaId": 9,
+      "imagen": "https://covers.openlibrary.org/b/id/12719113-L.jpg",
+      "tipoPublicacion": "Venta",
+      "precio": 16.0,
+      "estadoFisico": "Nuevo",
+      "usuarioId": 2,
+      "disponibilidad": "Disponible",
+      "fechaPublicacion": "2026-10-29"
+    },
+    {
+      "id": 11,
+      "titulo": "Biología: la vida en la Tierra",
+      "autor": "Teresa Audesirk",
+      "descripcion": "Texto introductorio sobre los procesos y sistemas biológicos.",
+      "categoriaId": 4,
+      "areaTematicaId": 6,
+      "imagen": "https://covers.openlibrary.org/b/id/10484717-L.jpg",
+      "tipoPublicacion": "Venta",
+      "precio": 22.0,
+      "estadoFisico": "Bueno",
+      "usuarioId": 3,
+      "disponibilidad": "Disponible",
+      "fechaPublicacion": "2026-10-30"
+    },
+    {
+      "id": 12,
+      "titulo": "Historia del Ecuador",
+      "autor": "Enrique Ayala Mora",
+      "descripcion": "Recorrido por los principales procesos históricos del Ecuador.",
+      "categoriaId": 5,
+      "areaTematicaId": 8,
+      "imagen": "https://covers.openlibrary.org/b/id/11153242-L.jpg",
+      "tipoPublicacion": "Donación",
+      "precio": 0,
+      "estadoFisico": "Muy bueno",
+      "usuarioId": 4,
+      "disponibilidad": "Disponible",
+      "fechaPublicacion": "2026-10-31"
+    }
+  ],
+  "resenas": [
+    {
+      "id": 1,
+      "libroId": 1,
+      "usuarioId": 2,
+      "calificacion": 5,
+      "titulo": "Una gran novela",
+      "comentario": "La historia es interesante y los personajes están muy bien construidos.",
+      "fecha": "2026-10-25"
+    },
+    {
+      "id": 2,
+      "libroId": 2,
+      "usuarioId": 3,
+      "calificacion": 4,
+      "titulo": "Muy útil para programar",
+      "comentario": "Tiene buenos consejos para mejorar la calidad del código.",
+      "fecha": "2026-10-26"
+    },
+    {
+      "id": 3,
+      "libroId": 3,
+      "usuarioId": 4,
+      "calificacion": 4,
+      "titulo": "Buen material de estudio",
+      "comentario": "Explica varios temas con ejercicios prácticos.",
+      "fecha": "2026-10-27"
+    },
+    {
+      "id": 4,
+      "libroId": 4,
+      "usuarioId": 5,
+      "calificacion": 5,
+      "titulo": "Lectura recomendable",
+      "comentario": "Es una lectura sencilla con un mensaje interesante.",
+      "fecha": "2026-10-28"
+    },
+    {
+      "id": 5,
+      "libroId": 5,
+      "usuarioId": 6,
+      "calificacion": 3,
+      "titulo": "Cumple su propósito",
+      "comentario": "Sirve como introducción, aunque algunos ejemplos son antiguos.",
+      "fecha": "2026-10-29"
+    },
+    {
+      "id": 6,
+      "libroId": 10,
+      "usuarioId": 7,
+      "calificacion": 5,
+      "titulo": "Fácil de aplicar",
+      "comentario": "Presenta ideas claras que se pueden llevar a la vida diaria.",
+      "fecha": "2026-10-30"
+    }
+  ],
+  "valoracionesUsuarios": [
+    {
+      "id": 1,
+      "usuarioEvaluadoId": 1,
+      "usuarioEvaluadorId": 2,
+      "calificacion": 5,
+      "comentario": "Respondió rápido y entregó el libro en buen estado.",
+      "tipoExperiencia": "Venta",
+      "fecha": "2026-10-30"
+    },
+    {
+      "id": 2,
+      "usuarioEvaluadoId": 2,
+      "usuarioEvaluadorId": 3,
+      "calificacion": 4,
+      "comentario": "La comunicación fue clara durante el intercambio.",
+      "tipoExperiencia": "Intercambio",
+      "fecha": "2026-10-31"
+    },
+    {
+      "id": 3,
+      "usuarioEvaluadoId": 3,
+      "usuarioEvaluadorId": 4,
+      "calificacion": 5,
+      "comentario": "Realizó la donación según lo acordado.",
+      "tipoExperiencia": "Donación",
+      "fecha": "2026-11-01"
+    },
+    {
+      "id": 4,
+      "usuarioEvaluadoId": 4,
+      "usuarioEvaluadorId": 5,
+      "calificacion": 4,
+      "comentario": "Fue amable y coordinó la entrega con tiempo.",
+      "tipoExperiencia": "Venta",
+      "fecha": "2026-11-02"
+    },
+    {
+      "id": 5,
+      "usuarioEvaluadoId": 5,
+      "usuarioEvaluadorId": 6,
+      "calificacion": 5,
+      "comentario": "Libro en excelentes condiciones.",
+      "tipoExperiencia": "Venta",
+      "fecha": "2026-11-03"
+    },
+    {
+      "id": 6,
+      "usuarioEvaluadoId": 6,
+      "usuarioEvaluadorId": 7,
+      "calificacion": 3,
+      "comentario": "La coordinación tomó más tiempo del esperado.",
+      "tipoExperiencia": "Donación",
+      "fecha": "2026-11-04"
+    }
+  ],
+  "solicitudes": [
+    {
+      "id": 1,
+      "libroId": 5,
+      "usuarioSolicitanteId": 7,
+      "usuarioPropietarioId": 5,
+      "tipoSolicitud": "Compra",
+      "mensaje": "Hola, ¿podemos coordinar la entrega esta semana?",
+      "estado": "Pendiente",
+      "fechaSolicitud": "2026-11-10"
+    },
+    {
+      "id": 2,
+      "libroId": 3,
+      "usuarioSolicitanteId": 1,
+      "usuarioPropietarioId": 3,
+      "tipoSolicitud": "Donación",
+      "mensaje": "Me interesa este material para estudiar.",
+      "estado": "Aceptada",
+      "fechaSolicitud": "2026-11-08"
+    },
+    {
+      "id": 3,
+      "libroId": 7,
+      "usuarioSolicitanteId": 6,
+      "usuarioPropietarioId": 7,
+      "tipoSolicitud": "Donación",
+      "mensaje": "Puedo retirarlo en un punto cercano al centro.",
+      "estado": "Entregada",
+      "fechaSolicitud": "2026-11-02"
+    },
+    {
+      "id": 4,
+      "libroId": 8,
+      "usuarioSolicitanteId": 4,
+      "usuarioPropietarioId": 8,
+      "tipoSolicitud": "Compra",
+      "mensaje": "¿El precio es negociable?",
+      "estado": "Rechazada",
+      "fechaSolicitud": "2026-11-05"
+    },
+    {
+      "id": 5,
+      "libroId": 9,
+      "usuarioSolicitanteId": 2,
+      "usuarioPropietarioId": 1,
+      "tipoSolicitud": "Donación",
+      "mensaje": "Me gustaría recibir este libro. Gracias.",
+      "estado": "Cancelada",
+      "fechaSolicitud": "2026-11-06"
+    },
+    {
+      "id": 6,
+      "libroId": 6,
+      "usuarioSolicitanteId": 5,
+      "usuarioPropietarioId": 6,
+      "tipoSolicitud": "Intercambio",
+      "mensaje": "Tengo un libro de ciencias que podría interesarte.",
+      "estado": "Pendiente",
+      "fechaSolicitud": "2026-11-11"
+    }
+  ]
+}
