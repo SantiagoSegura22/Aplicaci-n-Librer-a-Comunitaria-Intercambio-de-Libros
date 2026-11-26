@@ -1,7 +1,7 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
-import { libro } from "../models/Libro";
+import { Libro } from "../models/Libro";
 
 
 @Injectable({
@@ -13,7 +13,7 @@ export class InicioService{
 
     constructor(private http: HttpClient){}
 
-    getComestibles(): Observable<libro[]>{
-        return this.http.get<libro[]>(this.LibreriaInicioUrl);
+    getLibros(): Observable<Libro[]>{
+        return this.http.get<Libro[]>(this.LibreriaInicioUrl);
     }
 }
